@@ -1,10 +1,7 @@
-import daftcodeImgUrl from './assets/daftcode.png';
-import './styles/style.sass';
+import "./styles/style.scss";
 
-export default function () {
-  const section = document.createElement('section')
-  const img = document.createElement('img')
-  img.src = daftcodeImgUrl
-  section.appendChild(img)
-  document.body.appendChild(section)
-}
+const swiper = new Swiper(".swiper-container", {
+  slidesPerView: "auto",
+  centeredSlides: false,
+  spaceBetween: 30,
+});
