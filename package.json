@@ -9,7 +9,7 @@
   "author": "Mateusz Zawadzki",
   "license": "ISC",
   "dependencies": {
-    "swiper": "^5.3.7"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
